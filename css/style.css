@@ -137,7 +137,18 @@ main {
   font-weight: 400;
   color: #727272;
 }
-
+.facts-container h3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.facts-container p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.facts-container {
+  margin-bottom: 3rem;
+}
 /* mobile devices */
 @media screen and (max-width: 576px) {
   header {
@@ -184,6 +195,13 @@ main {
   }
   .teams-description {
     text-align: center;
+  }
+  .facts-card-container {
+    flex-direction: column;
+    margin: 0 1.2rem;
+  }
+  .facts-card-container .card {
+    margin-bottom: 1.3rem;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 960px) {
