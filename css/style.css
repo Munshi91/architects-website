@@ -169,7 +169,7 @@ main {
 
 .team-content h3,
 p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .teams-container {
   display: flex;
@@ -177,15 +177,37 @@ p {
   gap: 100px;
   padding: 0 80px;
 }
+.team-content .section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 15px;
+}
 .team-content .card {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   padding: 16px;
 }
 .team-img img {
   width: 100%;
+  margin-left: 50px;
+}
+.ten-years-badge {
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  width: 330px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+.ten-years-badge h2 {
+  font-size: 3rem;
+  margin: 0px;
+}
+.ten-years-badge p {
+  font-size: 1.5rem;
 }
 /* mobile devices */
 @media screen and (max-width: 576px) {
